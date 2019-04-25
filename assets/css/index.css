@@ -95,3 +95,34 @@ small {
   display: block;
   margin-top: .5%;
 }
+
+/*
+ * General Typography
+ */
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+/*
+ * Element Specific Typography
+ */
+
+h1 {
+  font-weight: 900;
+}
+
+h2, h4 {
+  font-weight: 700;
+}
+
+blockquote {
+  font-weight: 400;
+  font-style: italic;
+}
+
+small {
+  font-weight: 300;
+}
+
