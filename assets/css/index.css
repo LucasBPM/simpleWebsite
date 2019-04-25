@@ -126,3 +126,19 @@ small {
   font-weight: 300;
 }
 
+/*
+ * General Color
+ */
+
+body {
+  background-color: #F5F5F5;
+}
+
+/*
+ * Element Specific Color
+ */
+
+.features {
+  background-color: #FFFFFF;
+}
+
