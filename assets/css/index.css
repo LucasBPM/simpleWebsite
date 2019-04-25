@@ -72,15 +72,26 @@ nav, header, section, footer {
 
 li {
   display: inline-block;
+  margin-left: 1%;
 }
 
 /* 
  * Element Specific Positon
  */
-nav {
+nav, .email, .features li {
   margin-top: 1%;
 }
 
 footer {
   margin-bottom: 1%;
+}
+
+footer ul {
+  display: inline-block;
+  width: 20%;
+}
+
+small {
+  display: block;
+  margin-top: .5%;
 }
