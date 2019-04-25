@@ -78,9 +78,24 @@ li {
 /* 
  * Element Specific Positon
  */
-nav, .email, .features li {
+.email, .features li {
   margin-top: 1%;
 }
+
+nav {
+  margin-top: .5%;
+  margin-bottom: .35%;
+}
+
+nav a {
+  margin-right: 45%;
+}
+
+
+header {
+  margin-top: .25%;
+}
+
 
 footer {
   margin-bottom: 1%;
@@ -95,6 +110,7 @@ small {
   display: block;
   margin-top: .5%;
 }
+
 
 /*
  * General Size
@@ -121,6 +137,8 @@ input {
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
+
+  letter-spacing: .1em
 }
 
 a {
@@ -135,6 +153,14 @@ a:hover {
 /*
  * Element Specific Typography
  */
+
+nav a {
+  font-size: 120%;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
 
 h1 {
   font-weight: 900;
@@ -165,8 +191,12 @@ body {
  * Element Specific Color
  */
 
+nav a {
+  color: #424242;
+}
+
 .features {
-  background-color: #FFFFFF;
+  background-color: #FFF;
 }
 
 
@@ -190,6 +220,16 @@ button:hover {
   background-color: #01579B;
 
   transition-duration: .2s;
+}
+
+/*
+ * Specific Button styles
+ */
+
+.nav-button {
+  font-size: 90%;
+
+  padding: .2% .7%;
 }
 
 
