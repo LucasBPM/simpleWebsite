@@ -97,6 +97,16 @@ small {
 }
 
 /*
+ * General Size
+ */
+input {
+}
+
+/*
+ * Element specific size
+ */
+
+/*
  * General Typography
  */
 
@@ -151,3 +161,25 @@ body {
   background-color: #FFFFFF;
 }
 
+
+/*
+ * General Button Style
+ */
+
+button {
+  color: #FFFFFF;
+  background-color: #0288D1;
+  font-size: 110%;
+
+  padding: .5% 1.3%;
+
+  /*width: 5%;*/
+  border-radius: 10%;
+
+}
+
+button:hover {
+  background-color: #01579B;
+
+  transition-duration: .2s;
+}
