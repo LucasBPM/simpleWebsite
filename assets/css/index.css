@@ -106,6 +106,14 @@ input {
  * Element specific size
  */
 
+.background {
+  padding: 13%;
+}
+
+.background-secondary {
+  padding: 5%;
+}
+
 /*
  * General Typography
  */
@@ -182,4 +190,18 @@ button:hover {
   background-color: #01579B;
 
   transition-duration: .2s;
+}
+
+
+/* 
+ * Images
+ */
+
+.background {
+  background-image: url("../images/erol-ahmed-186962-unsplash.jpg");
+  background-position: 0 35%;
+}
+
+.background-secondary {
+  background-position: 0 37%;
 }
