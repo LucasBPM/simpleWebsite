@@ -129,6 +129,26 @@ header form {
   margin-bottom: 1%;
 }
 
+.icon-features li {
+  width: 30%;
+
+  vertical-align: top;
+}
+
+.icon-features img {
+  width: 15%;
+}
+
+.icon-features p {
+  width: 80%;
+
+  padding-left: 10%;
+}
+
+.icon-features * {
+  margin-bottom: 3%;
+}
+
 footer {
   margin-top: 1%;
   margin-bottom: 1%;
@@ -208,6 +228,10 @@ blockquote {
 
 small {
   font-weight: 300;
+}
+
+.icon-features {
+  font-size: 150%;
 }
 
 /*
