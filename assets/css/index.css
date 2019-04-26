@@ -87,9 +87,12 @@ nav {
   margin-bottom: .35%;
 }
 
-nav a {
-  margin-right: 45%;
+span {
+  display: inline-block;
+
+  width: 45%;
 }
+
 
 header {
   margin-top: .25%;
@@ -250,7 +253,7 @@ button:hover {
 .nav-button {
   font-size: 90%;
 
-  padding: .2% .7%;
+  padding: .5% 1%;
 }
 
 /*
@@ -274,7 +277,6 @@ input {
 
 input:focus {
   border-color: #01579B;
-
 }
 
 
