@@ -129,14 +129,10 @@ footer {
 
 footer ul {
   display: inline-block;
+  height: 50%;
   width: 40%;
-}
 
-.misc {
-  text-align: left;
-}
-.social-media {
-  text-align: right;
+  vertical-align: middle;
 }
 
 small {
@@ -171,6 +167,10 @@ a {
 a:hover {
   text-decoration: underline;
   font-weight: 700;
+}
+
+footer {
+  font-size: 75%;
 }
 
 /*
@@ -215,7 +215,7 @@ body {
  * Element Specific Color
  */
 
-nav a {
+a {
   color: #424242;
 }
 
@@ -246,12 +246,13 @@ button {
   -moz-border-radius: 5%;
   border-radius: 5%;
 
+  transition-duration: .2s;
 }
 
 button:hover {
   background-color: #01579B;
 
-  transition-duration: .2s;
+  transform: scale(1.1);
 }
 
 /*
@@ -287,7 +288,6 @@ input:focus {
   border-color: #01579B;
 }
 
-
 /* 
  * Images
  */
@@ -299,4 +299,18 @@ input:focus {
 
 .background-secondary {
   background-position: 0 37%;
+}
+
+
+/*
+ * Social Media
+ */
+.social-media li {
+  width: 4%;
+
+  transition-duration: .2s;
+}
+
+.social-media li:hover {
+  transform: scale(1.5);
 }
