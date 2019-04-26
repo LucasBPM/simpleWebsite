@@ -93,6 +93,14 @@ span {
   width: 45%;
 }
 
+nav a {
+  margin-right: 20%;
+}
+
+.nav-button {
+  margin-left: 20%;
+}
+
 
 header {
   margin-top: .25%;
@@ -229,7 +237,7 @@ button {
   background-color: #0288D1;
   font-size: 130%;
 
-  padding: .5% 1.3%;
+  padding: .5% 1.5%;
 
   /*width: 5%;*/
   border: none;
@@ -253,7 +261,7 @@ button:hover {
 .nav-button {
   font-size: 90%;
 
-  padding: .5% 1%;
+  padding: .7% 5%;
 }
 
 /*
