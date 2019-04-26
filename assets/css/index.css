@@ -132,6 +132,11 @@ body {
   letter-spacing: .1em
 }
 
+h2 {
+  font-size: 200%;
+  font-weight: 900;
+}
+
 a {
  text-decoration: none; 
 }
