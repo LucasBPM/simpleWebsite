@@ -82,6 +82,10 @@ li {
   margin-left: 1%;
 }
 
+h2 {
+  margin: 5%;
+}
+
 /* 
  * Element Specific Positon
  */
@@ -129,12 +133,18 @@ header form {
   margin-bottom: 1%;
 }
 
+.background-secondary h2 {
+  margin: 0;
+}
+
 .icon-features li {
-  width: 30%;
+  width: 33%;
 
   vertical-align: top;
 
-  margin-bottom: 5%;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 2%;
 }
 
 .icon-features img {
@@ -142,9 +152,9 @@ header form {
 }
 
 .icon-features p {
-  width: 80%;
+  display: inline-block;
 
-  padding-left: 10%;
+  padding: 0 10%;
 }
 
 
@@ -259,6 +269,10 @@ small {
 .icon-features {
   font-size: 150%;
   line-height: 115%;
+}
+
+.icon-features img:hover {
+  transform: scale(1.2);
 }
 
 .features {
