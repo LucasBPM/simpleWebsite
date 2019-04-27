@@ -61,13 +61,6 @@ table {
  * 
  */
 
-/*
- * Mobile 
- */
-
-html {
-  width: 100%;
-}
 
 /*
  * General Position
@@ -394,13 +387,16 @@ input:focus {
  * Images
  */
 
+@media screen and (min-width: 768px) {
 .background {
   background-image: url("../images/erol-ahmed-186962-unsplash.jpg");
   background-position: 0 35%;
 }
 
+
 .background-secondary {
   background-position: 0 37%;
+}
 }
 
 .testimony img {
@@ -421,3 +417,80 @@ input:focus {
   transform: scale(1.5);
 }
 
+/*
+ * Mobile 
+ */
+
+html {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  input {
+    width: 50%;
+  }
+  .icon-features li {
+    display: block;
+    width: 100%;
+    margin: 5% auto;
+  }
+
+  .icon-features h2 {
+    margin: 2%;
+  }
+
+  .social-media li {
+    width: 7%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  header {
+    background-color: #fff;
+  }
+
+  .icon-features li {
+    margin-top: 15%;
+  }
+
+  .icon-features h2 {
+    margin: 5%;
+  }
+
+  input {
+    width: 80%;
+    margin: 5% auto;
+  }
+
+  .features div {
+    display: block;
+    width: 100%;
+    margin: 5% auto;
+  }
+
+  .features div p {
+    margin: 5%;
+  }
+
+  .features img {
+    display: none;
+  }
+
+  .testimony li {
+    display: block;
+    width: 100%;
+    margin: 10% auto;
+  }
+
+  footer ul, .misc li {
+    display: block;
+    width: 100%;
+    margin: 10% auto;
+  }
+
+  .social-media li {
+    width: 20%;
+    margin: 0 5%;
+  }
+
+}
