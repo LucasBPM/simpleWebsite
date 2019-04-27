@@ -451,6 +451,7 @@ html {
 
   .icon-features li {
     margin-top: 15%;
+    margin-bottom: 15%;
   }
 
   .icon-features h2 {
@@ -462,18 +463,26 @@ html {
     margin: 5% auto;
   }
 
-  .features div {
-    display: block;
-    width: 100%;
-    margin: 5% auto;
+  .features li {
+    display: table;
   }
 
-  .features div p {
-    margin: 5%;
+  .features div {
+    display: table-footer-group;
+
+  }
+
+  .features p {
+    margin-bottom: 15%;
   }
 
   .features img {
-    display: none;
+    display: table-header-group;
+    width: 100%;
+
+    padding: 0;
+
+    margin-bottom: 10%;
   }
 
   .testimony li {
@@ -491,6 +500,14 @@ html {
   .social-media li {
     width: 20%;
     margin: 0 5%;
+  }
+
+  .mobile {
+    padding: 10%;
+    margin: 5% 0;
+
+    background-image: url("../images/erol-ahmed-186962-unsplash.jpg");
+    background-position: 10% 40%;
   }
 
 }
